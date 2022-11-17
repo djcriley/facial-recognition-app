@@ -1,0 +1,20 @@
+<!doctype html>
+<style>
+   	body {background: #333; color: white; border: double; padding-top: 50px; padding-right: 30px; padding-bottom: 50px;
+	padding-left: 80px;}
+	h1   {color: white; font-family: Arial;}
+	h3   {font-family: Serif; font-family: Arial;  display: block;}
+	p    {color: white;}
+</style>
+<title>Testing Upload</title>
+<h2>Select an mp4 video that has the same face to test our model</h2>
+<h2>You will be returned the face detected and a confidence level</h2>
+<h5>this is not creepy... trust us...</h5>
+<html>
+   <body>
+      <form action = "/testing" method = "POST" enctype = "multipart/form-data">
+         <input type = "file" name = "File" />
+         <input type = "submit" value = "Submit" />
+      </form>
+   </body>
+</html>

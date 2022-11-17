@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {background: #333; color: white; border: double; padding-top: 50px; padding-right: 30px; padding-bottom: 50px;
+	     padding-left: 80px;}
+	img { height: auto; width: auto; max-width: 600px; max-height: 600px;}
+	a {color: white; font-family: Arial;}
+
+</style>
+<head>
+    <title>Output</title>
+</head>
+
+ <strong><nav>
+          <ul class="menu">
+            <li><a href="{{ url_for('upload_testing') }}">Click here to test another video</a></li>
+          </ul>
+        </nav></strong>
+<body>
+    <img src="{{url_for('static', filename='output.jpg')}}" align="middle" />
+
+</body>
+</html>
