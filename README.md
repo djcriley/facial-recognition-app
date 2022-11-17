@@ -1,11 +1,16 @@
-# Face Detector/Recognizer
+# Senior Project - Face Detector/Recognizer
 
 ## Authors 
-* Jorge Zepeda (j_zepeda3@u.pacific.edu)
 * Cooper Riley (c_riley9@u.pacific.edu)
+* Jorge Zepeda (j_zepeda3@u.pacific.edu)
 
 ## Project description
 This project consist of a website that is able to take user's two uploaded videos and detect their face. The first video is to train the model with a name given by the user, we created this model using opencv. The second video the user uploads will actaully put the model to use and detect the face that was given in any video.
+
+## Demo
+![demo](https://user-images.githubusercontent.com/43011353/202584930-1277d529-6f7b-4a4e-a3c9-895ca5b6548e.gif)
+
+
 
 ## Project components
 
@@ -23,7 +28,9 @@ This project will be using
 
 ## Running Locally 
 - You want to clone this repository onto your machine. Included is a requirments.txt that will have our dependencies that you should run.
-- Using your terminal navigate to the Source_code folder, and run the following command: flask run
-
-## Website/IP
+- Using your terminal navigate to the Source_code folder, and run the following command: 
+```bash 
+flask run
+```
+## Website/IP - AWS server is no longer running
 - Access through this IP to test your own pictures: http://34.201.9.122:5000/
