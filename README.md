@@ -1,9 +1,5 @@
 # Senior Project - Face Detector/Recognizer
 
-## Authors 
-* Cooper Riley (c_riley9@u.pacific.edu)
-* Jorge Zepeda (j_zepeda3@u.pacific.edu)
-
 ## Project description
 This project consist of a website that is able to take user's two uploaded videos and detect their face. The first video is to train the model with a name given by the user, we created this model using opencv. The second video the user uploads will actaully put the model to use and detect the face that was given in any video.
 
